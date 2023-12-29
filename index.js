@@ -43,6 +43,7 @@ function handleFormSubmit(event) {
     expenseAmoutToAdd + " - " + descriptionToAdd + " - " + categoryToSelect;
   buttonDiv.appendChild(editBtn);
   buttonDiv.appendChild(deleteBtn);
+
   newLi.appendChild(detailDiv);
   newLi.appendChild(buttonDiv);
   newUl.appendChild(newLi);
